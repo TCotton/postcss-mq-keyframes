@@ -1,0 +1,29 @@
+{
+  "name": "postcss-animations",
+  "description": "Refactors style sheet so that CSS3 keyframe animation is always outside andy media queries",
+  "version": "0.0.1",
+  "keywords": [
+    "postcss",
+    "css3",
+    "css",
+    "postcss component",
+    "keyframe animation"
+  ],
+  "maintainers": [
+    {
+      "name": "Andy Walpole",
+      "email": "me@andywalpole.me",
+      "web": "https://andywalpole.me"
+    }
+  ],
+  "dependencies": {
+    "eslint": "~1.0.0-rc-1"
+  },
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "https://github.com/TCotton/postcss-animations"
+}
