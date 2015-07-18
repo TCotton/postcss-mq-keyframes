@@ -29,5 +29,6 @@ build/Release
 node_modules
 
 .idea
+.idea/*
 
 .DS_Store
