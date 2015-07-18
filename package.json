@@ -8,6 +8,11 @@
     "url": "git@github.com:TCotton/postcss-animations.git"
   },
   "bugs": "https://github.com/TCotton/postcss-animations/issues",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-eslint": "^16.0.0"
+  },
+  "license": "MIT",
   "keywords": [
     "postcss",
     "css3",
@@ -23,16 +28,6 @@
     }
   ],
   "engines": {
-    "node": ">=0.8.28"
-  },
-  "dependencies": {},
-  "licenses": [
-    {
-      "name": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
-  "devDependencies": {
-    "gulp-eslint": "^0.15.0"
+    "node": ">=0.10.0"
   }
 }
