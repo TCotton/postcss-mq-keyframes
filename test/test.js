@@ -13,7 +13,7 @@ var test = function(input, output, opts, done) {
     });
 };
 
-describe('PLUGIN_NAME', function() {
+describe('postcss-animations', function() {
 
     // Write tests here
 
