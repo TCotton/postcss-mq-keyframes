@@ -13,26 +13,15 @@ Input:
 @media only screen and (min-width: 415px) {
 
     .pace {
-        width: 140px;
-        height: 300px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 2;
-        transform: scale(0.4);
-        transition: all 2s linear 0s;
-        animation: pace-bounce-scaledown 5s;
+        animation: pace-anim 5s;
     }
 
-    @-keyframes pace-bounce-scaledown {
-        0% {
-            opacity: 1;
-        }
+    @keyframes pace-anim {
         100% {
             opacity: 0;
         }
     }
-  
+
 }
 ```
 
@@ -42,24 +31,11 @@ Output:
 @media only screen and (min-width: 415px) {
 
     .pace {
-        width: 140px;
-        height: 300px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 2;
-        transform: scale(0.4);
-        transition: all 2s linear 0s;
-        animation: pace-bounce-scaledown 5s;
+        animation: pace-anim 5s;
     }
-    
 }
 
-@-keyframes pace-bounce-scaledown {
-    0% {
-        opacity: 1;
-    }
-
+@keyframes pace-anim {
     100% {
         opacity: 0;
     }
