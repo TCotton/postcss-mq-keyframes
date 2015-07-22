@@ -17,13 +17,13 @@ Input:
     background: #22df80;
     position: absolute;
     top: 0;
-    z-index: 1911;
-    -webkit-animation: pace-bounce 1s infinite;
+    z-index: 1;
     animation: pace-bounce 1s infinite;
   }
-    @  keyframes pace-bounce {
-    0% {
-            top: 0;
+  
+  @keyframes pace-bounce {
+   0% {
+    top: 0;
     animation-timing-function: ease-in;
   }
 
@@ -71,8 +71,7 @@ Output:
     background: #22df80;
     position: absolute;
     top: 0;
-    z-index: 1911;
-    -webkit-animation: pace-bounce 1s infinite;
+    z-index: 1;
     animation: pace-bounce 1s infinite;
   }
 }
