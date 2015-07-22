@@ -10,7 +10,8 @@ var rulesetKeyframes = function rulesetKeyframes() {
         css.eachAtRule(/(keyframes)$/, function(rule) {
 
             // if the keyframe parent is not the root of the file
-            // then the keyframe animation needs to be moved to the end of the file
+            // then the keyframe animation needs
+            // to be moved to the end of the file
             if (rule.parent.type !== 'root') {
 
                 // here clone rule
