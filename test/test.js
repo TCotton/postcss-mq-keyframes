@@ -20,7 +20,7 @@ var test = function test(input, output, opts, done) {
     });
 };
 
-describe('postcss-animations - finding and moving keyframes to end of CSS file', function() {
+describe('postcss-mq-keyframes - finding and moving keyframes to end of CSS file', function() {
 
     it('Keyframe animation is now at end of the file', function(done) {
         test(readCSS(), readCSS(), {}, done);

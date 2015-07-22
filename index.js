@@ -29,4 +29,4 @@ var rulesetKeyframes = function rulesetKeyframes() {
 
 };
 
-module.exports = postcss.plugin('postcss-animations', rulesetKeyframes);
+module.exports = postcss.plugin('postcss-mq-keyframes', rulesetKeyframes);

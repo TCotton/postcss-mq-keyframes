@@ -1,13 +1,13 @@
 {
-  "name": "postcss-animations",
+  "name": "postcss-mq-keyframes",
   "description": "Refactors stylesheet so that CSS3 keyframe animation is always sits any media queries",
   "version": "0.0.1",
-  "homepage": "https://github.com/TCotton/postcss-animations",
+  "homepage": "https://github.com/TCotton/postcss-mq-keyframes",
   "repository": {
     "type": "git",
-    "url": "git@github.com:TCotton/postcss-animations.git"
+    "url": "git@github.com:TCotton/postcss-mq-keyframes.git"
   },
-  "bugs": "https://github.com/TCotton/postcss-animations/issues",
+  "bugs": "https://github.com/TCotton/postcss-mq-keyframes/issues",
   "dependencies": {
     "postcss": "^4.1.13"
   },
@@ -28,7 +28,8 @@
     "css3",
     "css",
     "postcss component",
-    "keyframe animation"
+    "keyframe animation",
+    "postcss-mq-keyframes"
   ],
   "maintainers": [
     {

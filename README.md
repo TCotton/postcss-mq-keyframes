@@ -1,10 +1,10 @@
-# PostCSS postcss-animations [![Build Status][ci-img]][ci]
+# PostCSS postcss-mq-keyframes [![Build Status][ci-img]][ci]
 
-[PostCSS postcss-animations] This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file
+[PostCSS postcss-mq-keyframes] This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file
 
-[PostCSS postcss-animations]: https://github.com/TCotton/postcss-animations)
-[ci-img]: https://travis-ci.org/TCotton/postcss-animations.svg
-[ci]: https://travis-ci.org/TCotton/postcss-animations
+[PostCSS postcss-mq-keyframes]: https://github.com/TCotton/postcss-mq-keyframes)
+[ci-img]: https://travis-ci.org/TCotton/postcss-mq-keyframes.svg
+[ci]: https://travis-ci.org/TCotton/postcss-mq-keyframes
 
 Input:
 
@@ -117,7 +117,7 @@ Output:
 ## Usage
 
 ```js
-postcss([ require('postcss-animations') ])
+postcss([ require('postcss-mq-keyframes') ])
 ```
 
 See [PostCSS](https://github.com/postcss/postcss) docs for examples for your environment.
