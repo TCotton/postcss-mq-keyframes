@@ -1,6 +1,6 @@
 # PostCSS postcss-animations [![Build Status][ci-img]][ci]
 
-[PostCSS postcss-animations] This plugin will move any keyframe animations from inside media queries to the bottom of the file
+[PostCSS postcss-animations] This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file
 
 [PostCSS postcss-animations]: https://github.com/TCotton/postcss-animations)
 [ci-img]: https://travis-ci.org/TCotton/postcss-animations.svg
