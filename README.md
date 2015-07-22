@@ -21,7 +21,7 @@
 ## Usage
 
 ```js
-postcss([ require('PLUGIN_NAME') ])
+postcss([ require('postcss-animations') ])
 ```
 
 See [PostCSS] docs for examples for your environment.

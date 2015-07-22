@@ -22,8 +22,15 @@ gulp.task('jscs', function() {
         .pipe(jscs());
 });
 
+gulp.task('css', function() {
+    var postcss = require('gulp-postcss');
+    return gulp.src('src/**/*.css')
+        .pipe(postcss([require('./index.js')]))
+        .pipe(gulp.dest('build/'));
+});
+
 gulp.task('default', ['lint', 'test']);
 
 gulp.task('watch', function() {
-    gulp.watch(files, ['lint', 'test']);
+    gulp.watch(files, ['lint', 'test', 'jscs']);
 });
