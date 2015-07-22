@@ -16,6 +16,12 @@ gulp.task('test', function(done) {
         .pipe(mocha()).on('error', done);
 });
 
+gulp.task('jscs', function() {
+    var jscs = require('gulp-jscs');
+    return gulp.src(files)
+        .pipe(jscs());
+});
+
 gulp.task('default', ['lint', 'test']);
 
 gulp.task('watch', function() {
