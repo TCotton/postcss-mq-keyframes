@@ -1,10 +1,10 @@
 # PostCSS postcss-animations [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin PLUGIN_DESC.
+[PostCSS postcss-animations] plugin PLUGIN_DESC.
 
-[PostCSS](https://github.com/TCotton/postcss-animations)
-[ci-img](https://travis-ci.org/TCotton/postcss-animations.svg)
-[ci](https://travis-ci.org/TCotton/postcss-animations)
+[PostCSS postcss-animations]: https://github.com/TCotton/postcss-animations)
+[ci-img]: https://travis-ci.org/TCotton/postcss-animations.svg
+[ci]: https://travis-ci.org/TCotton/postcss-animations
 
 ```css
 .foo {
