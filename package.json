@@ -1,7 +1,7 @@
 {
   "name": "postcss-mq-keyframes",
-  "description": "Refactors stylesheet so that CSS3 keyframe animation is always sits any media queries",
-  "version": "0.2.0",
+  "description": "Moves any CSS3 keyframe animation out of media queries and places them at the bottom of the CSS file",
+  "version": "0.2.1",
   "homepage": "https://github.com/TCotton/postcss-mq-keyframes",
   "repository": {
     "type": "git",

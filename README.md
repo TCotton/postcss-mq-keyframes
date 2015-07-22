@@ -6,7 +6,6 @@
 [ci-img]: https://travis-ci.org/TCotton/postcss-mq-keyframes.svg
 [ci]: https://travis-ci.org/TCotton/postcss-mq-keyframes
 
-
 Input:
 
 ```css
@@ -40,6 +39,12 @@ Output:
         opacity: 0;
     }
 }
+```
+
+## Install
+
+```js
+$ npm install postcss-mq-keyframes --save-dev
 ```
 
 ## Usage
