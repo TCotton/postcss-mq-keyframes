@@ -23,13 +23,13 @@ gulp.task('jscs', function() {
 });
 
 gulp.task('css', function() {
-    var postcss = require('gulp-postcss');
+    var postcss = require('postcss');
     return gulp.src('src/**/*.css')
         .pipe(postcss([require('./index.js')]))
         .pipe(gulp.dest('build/'));
 });
 
-gulp.task('default', ['lint', 'test']);
+gulp.task('default', ['lint', 'test', 'jscs']);
 
 gulp.task('watch', function() {
     gulp.watch(files, ['lint', 'test', 'jscs']);
