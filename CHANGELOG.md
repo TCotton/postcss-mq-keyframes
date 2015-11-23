@@ -1,3 +1,6 @@
+## 0.2.2 “Up-to-date Galloping Wilderbest”
+* Bumped all npm dependencies to latest versions
+
 ## 0.2.2 “Secure Galloping Wilderbest”
 * Added snyk security scan as part of test run
 
