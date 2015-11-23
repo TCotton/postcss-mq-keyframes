@@ -3,6 +3,7 @@
 [![Build Status][ci-img]][ci]
 [![Dependency Status](https://david-dm.org/tcotton/postcss-mq-keyframes.svg?style=flat-square)](https://david-dm.org/tcotton/postcss-mq-keyframes)
 [![devDependency Status](https://david-dm.org/tcotton/postcss-mq-keyframes/dev-status.svg?style=flat-square)](https://david-dm.org/tcotton/postcss-mq-keyframes#info=devDependencies)
+[![npm version](https://badge.fury.io/js/postcss-mq-keyframes.svg)](http://badge.fury.io/js/postcss-mq-keyframes)
 
 This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file
 
