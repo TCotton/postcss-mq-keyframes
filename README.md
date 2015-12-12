@@ -5,7 +5,9 @@
 [![devDependency Status](https://david-dm.org/tcotton/postcss-mq-keyframes/dev-status.svg?style=flat-square)](https://david-dm.org/tcotton/postcss-mq-keyframes#info=devDependencies)
 [![npm version](https://badge.fury.io/js/postcss-mq-keyframes.svg)](http://badge.fury.io/js/postcss-mq-keyframes)
 
-This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file
+This plugin will move any keyframe animations from inside media queries to the bottom of the CSS file.
+
+See known issues on the [caniuse.com](http://caniuse.com/#search=keyframes) page for CSS animation: 'IE10 and IE11 do not support CSS animations inside media queries.'
 
 [ci-img]: https://travis-ci.org/TCotton/postcss-mq-keyframes.svg
 [ci]: https://travis-ci.org/TCotton/postcss-mq-keyframes
