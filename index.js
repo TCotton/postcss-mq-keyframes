@@ -7,7 +7,7 @@ var rulesetKeyframes = function rulesetKeyframes() {
         var cloned;
 
         // finds all keyframes rules using regex
-        css.eachAtRule(/(keyframes)$/, function(rule) {
+        css.walkAtRules(/(keyframes)$/, function(rule) {
 
             // if the keyframe parent is not the root of the file
             // then the keyframe animation needs
@@ -17,7 +17,7 @@ var rulesetKeyframes = function rulesetKeyframes() {
                 // here clone rule
                 cloned = rule;
                 // remove original rule
-                rule.removeSelf();
+                rule.remove();
                 // insert cloned rule at the bottom of the stylesheet
                 css.append(cloned);
 
