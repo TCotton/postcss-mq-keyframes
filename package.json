@@ -1,7 +1,7 @@
 {
   "name": "postcss-mq-keyframes",
   "description": "Moves any CSS3 keyframe animation out of media queries and places them at the bottom of the CSS file",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/TCotton/postcss-mq-keyframes",
   "repository": {
     "type": "git",
@@ -9,22 +9,22 @@
   },
   "bugs": "https://github.com/TCotton/postcss-mq-keyframes/issues",
   "dependencies": {
-    "postcss": "^5.0.19"
+    "postcss": "^6.0.22"
   },
   "devDependencies": {
-    "chai": "~3.5.0",
+    "chai": "~4.1.2",
     "gulp": "~3.9.1",
-    "gulp-eslint": "~2.0.0",
-    "gulp-jscs": "~3.0.2",
-    "gulp-mocha": "~2.2.0",
-    "install": "^0.3.0",
-    "sinon": "~1.17.3",
-    "snyk": "^1.13.2",
-    "version-bump-prompt": "^1.5.2"
+    "gulp-eslint": "~4.0.2",
+    "gulp-jscs": "~4.1.0",
+    "gulp-mocha": "~5.0.0",
+    "install": "^0.11.0",
+    "sinon": "~5.0.7",
+    "snyk": "^1.80.0",
+    "version-bump-prompt": "^4.1.0"
   },
   "scripts": {
     "build": "bump --prompt",
-    "test": "snyk test && snyk --dev test && gulp"
+    "test": "gulp"
   },
   "license": "MIT",
   "keywords": [
@@ -43,7 +43,7 @@
     }
   ],
   "engines": {
-    "node": ">=0.12.0",
-    "npm": ">=3.3.12"
+    "node": ">=6.11.3",
+    "npm": ">=3.10.10"
   }
 }
