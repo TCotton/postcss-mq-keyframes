@@ -3,4 +3,5 @@ node_modules/
 test/
 .travis.yml
 .idea/
+.nvmrc
 
